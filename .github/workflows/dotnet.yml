@@ -12,7 +12,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Setup Github Actions
     - uses: actions/checkout@v2
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v3
